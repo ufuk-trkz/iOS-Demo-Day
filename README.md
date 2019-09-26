@@ -19,7 +19,7 @@ Add your:
 
 The video demo is for sharing your work on your portfolio, but it is also a fallback if you have a technical issue during demo time.
 
-## Required Slides
+## Required Slides (Add your Keynote to your PR)
 
 1. App Name / Team Slide
 2. Elevator Pitch
@@ -33,6 +33,11 @@ The video demo is for sharing your work on your portfolio, but it is also a fall
 3. Do the squint test (can you read the text if you squint, if so, make the font bigger)
 4. Images are always welcome
 
+### Optional Slides
+
+1. Blooper: What's a funny bug or blooper? (screenshots/GIFs please)
+2. Revenue Model: If the app was your sole source of income, how would you monetize it?
+
 ## Questions (Answer inline)
 
 1. What was your favorite feature to implement? Why?
@@ -42,12 +47,16 @@ The video demo is for sharing your work on your portfolio, but it is also a fall
 5. What is your #1 feature?
 6. What are you future goals?
 
-### Optional Slides (Good for Q&A Prep)
+## Links (Add your links)
 
-1. Blooper: What's a funny bug or blooper? (screenshots/GIFs please)
-2. Revenue Model: If the app was your sole source of income, how would you monetize it?
+* YouTube demo video: `<insert video url here>`
+* Code: `<insert Github repository link here>`
+* Trello: `<insert trello board here>`
+* Test Flight: `<insert beta signup link here>`
 
 ## Presentation Flow
+
+Plan on having one person present the slides and live demo. Please practice your presentation in front of a mirror or with your team 2-5 times. Have the app running and visible in QuickTime so you can quickly transition between slides and live demo.
 
 * App Name / Team Slide (30 seconds)
 * Elevator Pitch Slide (30 seconds)
