@@ -1,21 +1,53 @@
 # iOS Demo Day
 
-2 hour Demo Day
+**7 minutes/team**
 
-**8 minutes/team**
 * 4 minute presentation (5 minute hard cap)
 * 3 minutes of questions
 
-We have 12 teams presenting today—please practice your presentation with a timer (as a team), and make sure you fit within the time limit.
+We have 12 teams presenting today — please practice your presentation with a timer (as a team), and make sure you fit within the time limit.
 
 ## Requirements
 
-1. Slide deck (4 required slides)
+Fork and clone this repository and tag your TL and instructor on your Pull Request.
+
+Add your: 
+
+1. Slide deck (4 required slides in Keynote)
 2. Video demo (2 minutes max), share YouTube video link
+3. Answer all the questions
 
-The video demo is for sharing your work, but also a fallback if you have a technical issue during demo time.
+The video demo is for sharing your work on your portfolio, but it is also a fallback if you have a technical issue during demo time.
 
-## Recommended Presentation Flow
+## Required Slides
+
+1. App Name / Team Slide
+2. Elevator Pitch
+3. Your #1 Feature (Customer facing — what can I do with your app?)
+4. Future Goals
+
+## Slide Requirements
+
+1. 40 pt font minimum
+2. Prefer concise words using 3-6 bullets (Don't write sentences/paragraphs)
+3. Do the squint test (can you read the text if you squint, if so, make the font bigger)
+4. Images are always welcome
+
+## Questions (Answer inline)
+
+1. What was your favorite feature to implement? Why?
+2. What was your #1 obstacle or bug that you fixed? How did you fix it?
+3. Are you proud of a code file? Why?
+4. What is your elevator pitch? (30 second description your Grandma or a 5-year old would understand)
+5. What is your #1 feature?
+6. What are you future goals?
+
+### Optional Slides (Good for Q&A Prep)
+
+1. Blooper: What's a funny bug or blooper? (screenshots/GIFs please)
+2. Revenue Model: If the app was your sole source of income, how would you monetize it?
+
+## Presentation Flow
 
 * App Name / Team Slide (30 seconds)
 * Elevator Pitch Slide (30 seconds)
@@ -23,22 +55,3 @@ The video demo is for sharing your work, but also a fallback if you have a techn
 * Live Demo (2 minutes)
 * Future Goals (30 seconds)
 * Questions (3 minutes)
-
-## Questions to Prepare (Q&A)
-
-1. What was your favorite feature to implement? Why?
-2. What was your #1 obstacle or bug that you fixed? How did you fix it?
-3. Are you proud of a code file? Why?
-
-## Slides
-
-1. App Name / Team Slide
-2. Elevator Pitch
-3. Your #1 Feature (Customer facing)
-4. Future Goals
-
-### Optional Slides (Good for Q&A Prep)
-
-1. Blooper: What's a funny bug or blooper? (screenshots/gifs please)
-2. Revenue Model: If the app was your sole source of income, how would you monetize it?
-
