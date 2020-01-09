@@ -1,4 +1,4 @@
-# iOS9 and iOS12 Demo Day
+# iOS Demo Day
 
 ## Requirements
 
