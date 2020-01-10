@@ -16,9 +16,9 @@
 
 ## Links
 
-* Github Code: `<insert Github repository link here>`
+* Github Code: `<https://github.com/ufuk-trkz/UnitConverter/blob/master/README.md>`
 * Github Proposal: `<insert Proposal Pull Request here>`
-* Trello/Github Project Kanban: `<insert trello board here>`
+* Trello/Github Project Kanban: `<https://trello.com/b/MLDbMhl0/unit-converter>`
 * Test Flight Signup (Recommended): `<insert beta signup link here>`
 * YouTube demo video (Recommended): `<insert video url here>`
 
@@ -30,27 +30,38 @@
 
 1. What was your favorite feature to implement? Why?
 
-    `<Your answer here>`
+    `<The number buttons>`
 
 2. What was your #1 obstacle or bug that you fixed? How did you fix it?
 
-    `<Your answer here>`
+`<When I tried to change the title of the fromCurrency button it also changed the title of the toCurrency button. I fixed that by seperating the segue identifiers and creating two delegates.>`
   
 3. Share a chunk of code (or file) you're proud of and explain why.
 
-    `<Your answer here>`
+    `< @IBAction func numbersTapped(_ sender: UIButton) {
+           
+           if fromCurrencyTF.isEditing {
+               fromCurrencyTF.text! += (String(sender.tag))
+           } else if toCurrencyTF.isEditing {
+               toCurrencyTF.text! += (String(sender.tag))
+           }
+       }>`
+
+`< It isn't very complex but I did it by my own and found out that you can connect multiple buttons to one action.>`
   
 4. What is your elevator pitch? (30 second description your Grandma or a 5-year old would understand)
 
-    `<Your answer here>`
+    `< The App can be used to convert different kind of currencies, length units and weight units. It allows you to chage between the Unit Converters with a tab bar. You can select the currency you want to convert from and the currency you want to convert to and type in the amount into a text field using the number buttons on the screen. By tapping the equal button, the second text field shows the conveted amount. >`
   
 5. What is your #1 feature?
 
-    `<Your answer here>`
+`< Converting currencies, length and weight units.>`
   
 6. What are you future goals?
 
-    `<Your answer here>`
+`< Time-zone converter
+Button to change fromUnit <-> toUnit
+Allow basic calculation on text field (e.g. (100 + 50)USD = 134.55 EUR>`
 
 ## Required Slides (Add your Keynote to your PR)
 
