@@ -16,9 +16,9 @@
 
 ## Links
 
-* Github Code: `<https://github.com/ufuk-trkz/UnitConverter/blob/master/README.md>`
+* Github Code: `<https://github.com/ufuk-trkz/BW-Unit4-orange-pages/compare?expand=1>`
 * Github Proposal: `<insert Proposal Pull Request here>`
-* Trello/Github Project Kanban: `<https://trello.com/b/MLDbMhl0/unit-converter>`
+* Trello/Github Project Kanban: `<https://github.com/ufuk-trkz/BW-Unit4-orange-pages/projects/1>`
 * Test Flight Signup (Recommended): `<insert beta signup link here>`
 * YouTube demo video (Recommended): `<insert video url here>`
 
@@ -30,38 +30,44 @@
 
 1. What was your favorite feature to implement? Why?
 
-    `<The number buttons>`
+`<Adding other users to the favorites. I wanted to learn about how users communicate with other users on the server.>`
 
 2. What was your #1 obstacle or bug that you fixed? How did you fix it?
 
-`<When I tried to change the title of the fromCurrency button it also changed the title of the toCurrency button. I fixed that by seperating the segue identifiers and creating two delegates.>`
+`<I was checking if the user is logged in on the SceneDelegate and if not the app should show the Login screen on the Login storyboard. That worked but it was presenting the view from the button. I changed from presenting the NavigationController to show(loginView).>`
   
 3. Share a chunk of code (or file) you're proud of and explain why.
 
-    `< @IBAction func numbersTapped(_ sender: UIButton) {
-           
-           if fromCurrencyTF.isEditing {
-               fromCurrencyTF.text! += (String(sender.tag))
-           } else if toCurrencyTF.isEditing {
-               toCurrencyTF.text! += (String(sender.tag))
-           }
-       }>`
+`< // 
+func downloadImage(from urlString: String, completed: @escaping (UIImage?) -> Void) {
+    guard let url = URL(string: urlString) else {
+        completed(nil)
+        return
+    }
+    let dataTask = URLSession.shared.dataTask(with: url) { data, response, error in
+        guard  error == nil, let response = response as? HTTPURLResponse, response.statusCode == 200, let data = data, let image = UIImage(data: data) else {
+                completed(nil)
+                return
+        }
+        completed(image)
+    }
+    dataTask.resume()
+}>`
 
-`< It isn't very complex but I did it by my own and found out that you can connect multiple buttons to one action.>`
+`<If a user sets a profile image we are just saving the url of the image. to show the profileimage we have to download it using the url on the server.>`
   
 4. What is your elevator pitch? (30 second description your Grandma or a 5-year old would understand)
 
-    `< The App can be used to convert different kind of currencies, length units and weight units. It allows you to chage between the Unit Converters with a tab bar. You can select the currency you want to convert from and the currency you want to convert to and type in the amount into a text field using the number buttons on the screen. By tapping the equal button, the second text field shows the conveted amount. >`
+`<The main function of the app is searching for other users and getting their contact information (Favorite restaurant, dentist, gym etc.). Every user can share their name (or business name), phone number, their email they are signed in with and a short info (e.g. opening hours) -> Business cards. The user can add the contacts they searched for to their favorites. >` 
   
 5. What is your #1 feature?
 
-`< Converting currencies, length and weight units.>`
+`<Searching for other users>`
   
 6. What are you future goals?
 
-`< Time-zone converter
-Button to change fromUnit <-> toUnit
-Allow basic calculation on text field (e.g. (100 + 50)USD = 134.55 EUR>`
+`<Deleting favorites>`
+`<Adding a feed view for posts to make it like twitter.>`
 
 ## Required Slides (Add your Keynote to your PR)
 
